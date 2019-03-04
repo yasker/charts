@@ -1,0 +1,12 @@
+question:
+  bridgeInterface: en0
+  enforceResourceLimits: true
+  replicas: 1
+  zeroDowntime: false
+  logLevel: 3
+
+image:
+  vm: rancher/vm:v0.2.0
+  frontend: rancher/vm-frontend:v0.2.0
+  novnc: rancher/vm-novnc:v0.2.0
+  tools: rancher/vm-tools:v0.2.0
